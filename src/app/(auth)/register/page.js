@@ -20,17 +20,16 @@ const Register = () => {
       </div>
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-sm">
         <form className="space-y-6" action="#" method="POST">
-          {/*<Button fullWidth>Log in with Google</Button>*/}
-          <Button className={`flex justify-center items-center`} variant={`outlined`} fullWidth>
-            <Icons.google className={`h-5 w-5 mr-3`}/>
-            Register with Google
-          </Button>
+          {/*<Button className={`flex justify-center items-center`} variant={`outlined`} fullWidth>*/}
+          {/*  <Icons.google className={`h-5 w-5 mr-3`}/>*/}
+          {/*  Register with Google*/}
+          {/*</Button>*/}
 
-          <div className="flex items-center">
-            <hr className="flex-grow border-t border-gray-300"/>
-            <span className="mx-4">OR</span>
-            <hr className="flex-grow border-t border-gray-300"/>
-          </div>
+          {/*<div className="flex items-center">*/}
+          {/*  <hr className="flex-grow border-t border-gray-300"/>*/}
+          {/*  <span className="mx-4">OR</span>*/}
+          {/*  <hr className="flex-grow border-t border-gray-300"/>*/}
+          {/*</div>*/}
 
           <div>
             <label htmlFor="name" className="block text-sm font-medium leading-6 text-gray-900">
@@ -38,7 +37,7 @@ const Register = () => {
             </label>
             <div className="mt-2">
               <input type="text" id="name" placeholder="Your name"
-                     className="block w-full appearance-none rounded-md border border-primary-300 bg-white px-3 py-3 leading-normal focus:shadow-outline focus:border-primary-400 focus:outline-none"/>
+                     className="block w-full appearance-none rounded-md border bg-white px-3 py-3 leading-normal border-primary-300 focus:shadow-outline focus:border-primary-400 focus:outline-none"/>
             </div>
           </div>
           <div>
@@ -47,7 +46,7 @@ const Register = () => {
             </label>
             <div className="mt-2">
               <input type="text" id="email" placeholder="example@gmail.com"
-                     className="block w-full appearance-none rounded-md border border-primary-300 bg-white px-3 py-3 leading-normal focus:shadow-outline focus:border-primary-400 focus:outline-none"/>
+                     className="block w-full appearance-none rounded-md border bg-white px-3 py-3 leading-normal border-primary-300 focus:shadow-outline focus:border-primary-400 focus:outline-none"/>
             </div>
           </div>
 
@@ -57,12 +56,12 @@ const Register = () => {
                 Password
               </label>
             </div>
-            <div className="mt-2 relative">
+            <div className="relative mt-2">
               <input
                 type={showPassword ? 'text' : 'password'}
                 id="password"
                 placeholder="Type your password"
-                className="block w-full appearance-none rounded-md border border-primary-300 bg-white px-3 py-3 pr-10 leading-normal focus:shadow-outline focus:border-primary-400 focus:outline-none"
+                className="block w-full appearance-none rounded-md border bg-white px-3 py-3 pr-10 leading-normal border-primary-300 focus:shadow-outline focus:border-primary-400 focus:outline-none"
               />
               <div className="absolute inset-y-0 right-0 flex items-center pr-3">
                 <button
