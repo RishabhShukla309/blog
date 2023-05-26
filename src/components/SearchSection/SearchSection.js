@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchBar from '@/components/SearchSection/SearchBar/SearchBar'
+import SearchBar from '@/components/SearchSection/searchBar/searchBar'
 
 const SearchSection = () => {
   return (<div
